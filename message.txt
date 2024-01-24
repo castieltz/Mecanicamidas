@@ -1,0 +1,405 @@
+<body style="background: #010000">
+	<center>
+		<img height="200px" width="auto" src="https://cdn.discordapp.com/attachments/1152510604687441951/1152512939954286632/driftking.png">
+	</center>
+	<div id="1" class="fc quadro form-control">
+		<h3>
+			<font color="#022d42">TUNAGEM</font>
+		</h3>
+
+
+		<div class="col col-md-12">
+			<input id="Tunagem Full /S Desconto" type="checkbox" class="form-check-input" name="tunagem" value="350000" onclick="calcular()">
+			<label class="form-check-label" title="MOTOR/FREIO/TRANSMISSÃO/SUSPENSÃO/TURBO" for="Tunagem Full /S Desconto">Tunagem Full /S Desconto</label><br>
+			<input id="Tunagem Full /S Desconto" type="checkbox" class="form-check-input" name="tunagem" value="300000" onclick="calcular()">
+			<label class="form-check-label" title="MOTOR/FREIO//TURBO" for="Tunagem Full /S Desconto">Tunagem /S Transmissão e /S Suspensão</label>
+			
+		</div>
+
+			<div class="col col-md-12">
+				<input id="Turbo" type="checkbox" class="form-check-input" name="tunagem" value="50000" onclick="calcular()">
+				<label class="form-check-label" for="Turbo">Turbo</label>
+			</div>
+			
+			<div class="col col-md-12">
+				<input id="Refil Nitro" type="checkbox" class="form-check-input" name="tunagem" value="200000" onclick="calcular()">
+				<label class="form-check-label" for="Turbo">Refil Nitro</label>
+			</div>
+		<hr>
+				<h3>
+					<font color="#022d42">BLINDAGENS</font>
+				</h3>
+		<div class="col col-md-12">
+
+			<input id="Full Blindagem /S Desconto" type="checkbox" class="form-check-input" name="tunagem" value="1600000" onclick="calcular()">
+			<label class="form-check-label" for="Blindagem">Full /S Desconto</label>
+			
+
+			<input id="Blindagem Pneu  /S Desconto" type="checkbox" class="form-check-input" name="tunagem" value="1000000" onclick="calcular()">
+			<label class="form-check-label" for="Blindagem Pneu"> Pneu  /S Desconto</label>
+			
+			<input id="Blindagem Lataria /S Desconto" type="checkbox" class="form-check-input" name="tunagem" value="600000" onclick="calcular()">
+			<label class="form-check-label" for="Blindagem Pneu"> Lataria /S Desconto</label>
+			
+		</div>
+		<div class="col col-md-12">
+		<input id="Blindagem 20%" type="checkbox" class="form-check-input" name="tunagem" value="100000" onclick="calcular()">
+		<label class="form-check-label" for="Blindagem 100%">Blindagem 20%</label>
+
+		<input id="Blindagem 40%" type="checkbox" class="form-check-input" name="tunagem" value="200000" onclick="calcular()">	
+		<label class="form-check-label" for="Blindagem 100%">Blindagem 40%</label>
+		<input id="Blindagem 60%" type="checkbox" class="form-check-input" name="tunagem" value="300000" onclick="calcular()">
+		<label class="form-check-label" for="Blindagem 100%">Blindagem 60%</label>
+		</div>
+		<div class="col col-md-12">
+			
+
+		<input id="Blindagem 80%" type="checkbox" class="form-check-input" name="tunagem" value="400000" onclick="calcular()">
+		<label class="form-check-label" for="Blindagem 100%">Blindagem 80%</label>
+
+		<input id="Blindagem 100%" type="checkbox" class="form-check-input" name="tunagem" value="600000" onclick="calcular()">
+		<label class="form-check-label" for="Blindagem 100%">Blindagem 100%</label>
+
+
+		</div>
+		<hr>
+
+		<h3>
+			<font color="#022d42">MOTOR</font>
+		</h3>
+		<div class="col col-md-12">
+			<input id="Motor 1/5" type="checkbox" class="form-check-input" name="tunagem" value="20000" onclick="calcular()">
+			<label class="form-check-label" for="Motor">Motor 1/5</label>
+			<input id="Motor 2/5" type="checkbox" class="form-check-input" name="tunagem" value="40000" onclick="calcular()">
+			<label class="form-check-label" for="Motor">Motor 2/5</label>
+			<input id="Motor 3/5" type="checkbox" class="form-check-input" name="tunagem" value="70000" onclick="calcular()">
+			<label class="form-check-label" for="Motor">Motor 3/5</label>
+		
+			
+		
+			<input id="Motor 4/5" type="checkbox" class="form-check-input" name="tunagem" value="100000" onclick="calcular()">
+			<label class="form-check-label" for="Motor">Motor 4/5</label><br>
+			<input id="Motor 5/5" type="checkbox" class="form-check-input" name="tunagem" value="120000" onclick="calcular()">
+			<label class="form-check-label" for="Motor">Motor 5/5</label>
+		</div>
+		<hr>
+
+		<h3>
+			<font color="#022d42">TRANSMISSÃO</font>
+		</h3>
+		<div class="col col-md-12">
+			<input id="Transmissão 1/5" type="checkbox" class="form-check-input" name="tunagem" value="60000" onclick="calcular()">
+			<label class="form-check-label" for="transmissao">Transmissão 1/5</label>
+			
+			<input id="Transmissão 2/5" type="checkbox" class="form-check-input" name="tunagem" value="80000" onclick="calcular()">
+			<label class="form-check-label" for="transmissao">Transmissão 2/5</label>
+		
+			<input id="Transmissão 3/5" type="checkbox" class="form-check-input" name="tunagem" value="100000" onclick="calcular()">
+			<label class="form-check-label" for="transmissao">Transmissão 3/5</label>
+		</div>
+		<div class="col col-md-12">
+			<input id="Transmissão 4/5" type="checkbox" class="form-check-input" name="tunagem" value="120000" onclick="calcular()">
+			<label class="form-check-label" for="transmissao">Transmissão 4/5</label>
+		
+			<input id="Transmissão 5/5" type="checkbox" class="form-check-input" name="tunagem" value="150000" onclick="calcular()">
+			<label class="form-check-label" for="transmissao">Transmissão 5/5</label>
+		</div>
+		<hr>
+
+
+		<h3>
+			<font color="#022d42">Freio</font>
+		</h3>
+		<div class="col col-md-12">
+			<input id="Freio 1/3" type="checkbox" class="form-check-input" name="tunagem" value="20000" onclick="calcular()">
+			<label class="form-check-label" for="freio">Freio 1/3</label>
+			<input id="Freio 2/3" type="checkbox" class="form-check-input" name="tunagem" value="40000" onclick="calcular()">
+			<label class="form-check-label" for="freio">Freio 2/3</label>
+
+			<input id="Freio 3/3" type="checkbox" class="form-check-input" name="tunagem" value="60000" onclick="calcular()">
+			<label class="form-check-label" for="freio">Freio 3/3</label> 
+		</div>
+
+	</div>
+
+
+	<div id="2" class="quadro form-control" style="padding: 8px;">
+		<h3>
+			<font color="#022d42">SUSPENSÃO</font>
+		</h3>
+		<div class="col col-md-12">
+			<input id="Suspensão 1/5" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Suspensão">Suspensão 1/5</label>
+			
+			<input id="Suspensão 2/5" type="checkbox" class="form-check-input" name="tunagem" value="20000" onclick="calcular()">
+			<label class="form-check-label" for="Suspensão">Suspensão 2/5</label>
+		
+			<input id="Suspensão 3/5" type="checkbox" class="form-check-input" name="tunagem" value="30000" onclick="calcular()">
+			<label class="form-check-label" for="Suspensão">Suspensão 3/5</label>
+		</div>
+		<div class="col col-md-12">
+			<input id="Suspensão 4/5" type="checkbox" class="form-check-input" name="tunagem" value="50000" onclick="calcular()">
+			<label class="form-check-label" for="Suspensão">Suspensão 4/5</label>
+		
+			<input id="Suspensão 5/5" type="checkbox" class="form-check-input" name="tunagem" value="70000" onclick="calcular()">
+			<label class="form-check-label" for="Suspensão">Suspensão 5/5</label>
+		</div>
+		<hr>
+		<h3>
+			<font color="#022d42">INSTALAR </font>
+		</h3>
+        <div class="col col-md-12" style="padding: 4px">
+			<input id="Neon " type="checkbox" class="form-check-input" name="tunagem" value="25000" onclick="calcular()">
+			<label class="form-check-label" for="Neon">Neon</label>
+		
+			<input id="Xenon " type="checkbox" class="form-check-input" name="tunagem" value="25000" onclick="calcular()">
+			<label class="form-check-label" for="Xenon">Xenon</label>
+		</div>
+		<hr>
+
+		<h3>
+			<font color="#022d42">ESTÉTICA</font>
+		</h3>
+		<div class="col col-md-12">
+
+			<input id="Aerofólio" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Aerofólio">Aerofólio</label>
+		
+			<input id="Para-choque dianteiro " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Para-choque dianteiro">Para-choque dianteiro</label>
+
+			<input id="Para-choque traseiro " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Para-choque traseiro">Para-choque traseiro</label>
+
+			<input id="Saias" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Saias">Saias</label>
+
+			<input id="Escapamento " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Escapamento">Escapamento</label>
+		
+			<input id="Chassi Capa Farol " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Chassi Capa Farol">Chassi Capa Farol</label>
+		
+			<input id="Chassi Portas " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Chassi Portas">Chassi Portas</label>
+
+			<input id="Chassi Gaiola " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Chassi Gaiola">Chassi Gaiola</label>
+				
+
+		
+			<input id="Grelha " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Grelha">Grelha</label>
+
+			<input id="capô " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="capô">Capô</label>
+			<br>
+			<input id="Para-Lama " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Para-Lama">Para-Lama</label>
+		
+			<input id="Teto " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Teto">Teto</label>
+		
+			<input id="Buzina " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Buzina">Buzina</label>
+
+			<input id="Interior Enfeite Painel" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Interior Enfeite Painel">Interior Enfeite Painel</label>
+			
+			<input id="Interior Painel" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Interior Painel">Interior Painel</label>
+		
+			<input id="Interior Ponteiro" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Interior Ponteiro">Interior Ponteiro</label>
+			<input id="Interior Janela" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Interior Janela">Interior Janela</label>
+		<br>
+			<input id="Interior Banco" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Interior Banco">Interior Banco</label>
+
+					
+			<input id="Mudar Cor Neon " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Cor Neon">Mudar Cor Neon</label>
+			<input id="Mudar Cor Xenon " type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Mudar Cor Xenon">Mudar Cor Xenon</label>
+			<br>
+
+
+			<input id="Pneu" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Pneu">Pneu</label>
+
+			<input id="Mudar Cor Pneu" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Mudar Cor Pneu">Mudar Cor Pneu</label>
+
+			<input id="Pneu Custom" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Pneu Custom">Pneu Custom</label>
+			<br>
+
+			<input id="Fumaça Pneu" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Fumaça pneu">Fumaça Pneu</label>
+	
+			<input id="Placa" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+		<label class="form-check-label" for="Placa">Placa</label>
+	
+			<input id="Insufilme" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+		<label class="form-check-label" for="Insufilme">Insufilme</label>
+			
+		</div>
+		<hr>
+		<h3>
+			<font color="#022d42">PINTURA</font>
+		</h3>
+
+		<div class="col col-md-12">
+			<input id="Cor Primaria" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Cor Primaria">Cor Primaria</label>
+		
+			<input id="Cor Secundaria" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Cor Secundaria">Cor Secundaria</label>
+		
+			<input id="Decal" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Decal">Decal</label>
+		</div>
+
+		<div class="col col-md-12" style="padding: 1.5px">
+			<input id="Pintura" type="checkbox" class="form-check-input" name="tunagem" value="10000" onclick="calcular()">
+			<label class="form-check-label" for="Pintura">Pintura(Cromado/Fosco/Metal/Metalico)</label>
+		</div>
+		<br>
+	</div>
+	<div id="3" class="quadro form-control">
+		<div class="col col-md-12" style="padding: 10px">
+
+		<h3>
+			<font color="#000000"> 🧮 CALCULADORA</font>
+		</h3>
+				
+		<h4>💸 VALOR: </h4> <input type="text" id="valor" name="valor" class="form-control" readonly="true" size="5" style="margin-right:15px">
+		<button class="btn btn-danger" onclick="limpar()"><i class="bi bi-trash"></i> Limpar</button>
+		<button class="btn btn-primary" onclick="descontoParceria()"><i class="bi bi-check"></i> Desconto Parceria</button>
+		<button class="btn btn-primary" onclick="descontoDezPorcento()"><i class="bi bi-check"></i> Desconto 10%</button>
+		<input hidden="" id="valorTotal">
+		<h3>TUNAGENS (PROCEDIMENTOS SELECIONADOS):</h3>
+		<textarea rows="12" cols="50" style="resize: none;" readonly="true" maxlength="500" id="copy-text" class="TextoTunagens form-control"></textarea>
+		<button class="btn btn-success" id="copy"> <i class="bi bi-clipboard"></i> Copiar</button>
+		<br>
+		<br>
+
+		<div class="alert alert-success" id="copiado" style="display: none;" role="alert">
+			Copiado com sucesso
+		</div>
+		</div>
+
+
+	</div>
+
+	
+
+
+	<script type="text/javascript">(function () { window['__CF$cv$params'] = { r: '6d4ede693a774cf7', m: 'c1hW1Rh0H4tuZl0wsr8lc_PxHochVPe94cU5za3H6pc-1643421646-0-AZgReWNppiCIufGN9b0SQAKCqRsLtHcwRgDjgAZ+Ebwly7w0zsT9G6XS1O/UzoI0KiHefNZG3S1S37LGPme9exr6Q+bETOtZoXvE80b2jTfbfvhbNPPCZOseNmfBmgNt6A/HEo8div1AtL5xdFuLfRozIq3iNLhezke9DJu8FQdEnFcZ+SAUTYcHVynGr69bHeJn9/0I1C6Z2kVFP5+t1xjmrXaI1cyd880XCyhvg3kG', s: [0xa3d3168605, 0xba02de72f3], } })();</script>
+	<script type="text/javascript">(function () { window['__CF$cv$params'] = { r: '6d55320baf256030', m: 'ZIEu.pp.iZbUyq5KJvDLfjpPqMeOMxiNGM_gE_5Duyk-1643487986-0-AcUKQeDM0xlzizuzSCE1OWs4UCC/gTki/Wf/ptjXki9iQ5VGlYhrXoxDtlJyTdabd/omn/0PoOs+p2TFELZ2mXXA6xQBQ2b+78uInsszFfSZ930uS3lQhVc0pV+mm90Hi0ieWJJmSuym9EtYDi4CGxRFI1YKe+wVHyalMeXttvlzsYErYN8azcWTRNNeh5t9RbTkmCwQHWLPNxXvCr0wo0DuT9CtjXmfznyCLMi9IUpe', s: [0x6efed7905d, 0x60ab50310e], } })();</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$("#1 :checkbox").change(function () {
+			let textAreaVal = $(".TextoTunagens").val();
+			if ($(this).prop("checked") == true) {
+				if (!textAreaVal.includes($(this).attr("id"))) {
+					textAreaVal += $(this).attr("id") + "\n";
+				}
+			}
+			else {
+				if (textAreaVal.includes($(this).attr("id"))) {
+					textAreaVal = textAreaVal.replace($(this).attr("id") + "\n", "");
+				}
+			}
+
+
+			$(".TextoTunagens").val(textAreaVal);
+		});
+		$("#2 :checkbox").change(function () {
+			let textAreaVal = $(".TextoTunagens").val();
+			if ($(this).prop("checked") == true) {
+				if (!textAreaVal.includes($(this).attr("id"))) {
+					textAreaVal += $(this).attr("id") + "\n";
+				}
+			}
+			else {
+				if (textAreaVal.includes($(this).attr("id"))) {
+					textAreaVal = textAreaVal.replace($(this).attr("id") + "\n", "");
+				}
+			}
+
+
+			$(".TextoTunagens").val(textAreaVal);
+		});
+		
+		function limpar() {
+			var tunagens = document.getElementsByName('tunagem');
+			for (var i = 0; i < tunagens.length; i++) {
+				tunagens[i].checked = false;
+			}
+			$("#copiado")[0].style.display = 'none'
+
+			var valor = document.getElementById("valor");
+			valor.value = 0;
+			document.getElementById("copy-text").value = "";
+
+		}
+
+
+		function tirarBloco() {
+			$("#copiado")[0].style.display = 'none';
+
+		}
+		document.getElementById('copy').addEventListener('click', function () {
+
+			var text = document.getElementById('copy-text');
+			text.select();
+			document.execCommand('copy');
+			$("#copiado")[0].style.display = 'block'
+			const timeOut = setTimeout(tirarBloco, 3000);
+		})
+		function calcular() {
+			var Valor = 0;
+			var tunagens = document.getElementsByName('tunagem');
+			for (var i = 0; i < tunagens.length; i++) {
+				if (tunagens[i].checked) {
+					var valores_tunganes = tunagens[i].value.split("|");
+					Valor += parseInt(valores_tunganes[0]);
+
+				}
+				$("#valorTotal").val(Valor);
+				var valor_txt = document.getElementById("valor");
+				valor_txt.value = "R$" + Valor.toLocaleString('pt-BR', { minimumFractionDigits: 2 });;
+			}
+		}
+		function descontoParceria(){
+			if ( $("#valorTotal").val() >= 350000){
+				var desconto= $("#valorTotal").val() * 0.15
+				var Valor = $("#valorTotal").val() - desconto
+				var valor_txt = document.getElementById("valor");
+				valor_txt.value = "R$" + Valor.toLocaleString('pt-BR', { minimumFractionDigits: 2 });;
+			}
+		}
+		
+		function descontoDezPorcento(){
+			var tunagem = document.getElementById("Tunagem Full /S Desconto").checked;
+			if ( $("#valorTotal").val() >= 350000){
+				var desconto= $("#valorTotal").val() * 0.10
+				if(tunagem === true ) {
+					var Valor = $("#valorTotal").val() - desconto - 5000
+				} else
+				var Valor = $("#valorTotal").val() - desconto
+				
+				var valor_txt = document.getElementById("valor");
+				valor_txt.value = "R$" + Valor.toLocaleString('pt-BR', { minimumFractionDigits: 2 });;
+			}
+		}
+	</script>
+
+
+
+</body>
